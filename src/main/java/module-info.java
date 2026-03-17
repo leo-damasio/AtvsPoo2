@@ -1,4 +1,4 @@
-module br.edu.ifsc.fln.atv1 {
+module br.edu.ifsc.fln.atv {
     requires javafx.controls;
     requires javafx.fxml;
 
