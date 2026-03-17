@@ -79,10 +79,21 @@ public class ImcController implements Initializable
 
     private String classificarImc(double imc)
     {
-        if (imc < 18.5) return "Abaixo do peso";
-        else if (imc < 25) return "Peso normal";
-        else if (imc < 30) return "Sobrepeso";
-        else if (imc < 35) return "Grau de Obesidade I";
-        else return "Grau de Obesidade II";
+        if(imc < 18.5)
+        {
+            return "Abaixo do peso";
+        }
+        else if(imc < 25)
+        {
+            return "Peso normal";
+        }else if(imc< 30)
+        {
+            return"Sobrepeso";
+        }else if (imc < 35)
+        {
+            return "Grau de Obesidade I";
+        }
+        else
+            return "Grau de Obesidade II";
     }
 }
